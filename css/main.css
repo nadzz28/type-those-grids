@@ -43,3 +43,23 @@ main {
     "box1 box2 box3";
   gap: .75rem;
 }
+
+main > img {
+  grid-area: banner;
+  max-width: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+.banner-text {
+  grid-area: banner;
+  align-self: end;
+  color: #fff;
+  padding: 1.5rem 1rem;
+}
