@@ -26,3 +26,7 @@ h1 {
 h2 {
   font-size: 1.3rem;
 }
+
+.banner-text h2, .banner-text p {
+  margin: 0;
+}
