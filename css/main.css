@@ -30,3 +30,7 @@ h2 {
 .banner-text h2, .banner-text p {
   margin: 0;
 }
+
+figcaption {
+  padding: .2rem 1.2rem;
+}
