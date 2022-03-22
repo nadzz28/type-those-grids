@@ -34,3 +34,12 @@ h2 {
 figcaption {
   padding: .2rem 1.2rem;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "banner banner banner"
+    "box1 box2 box3";
+  gap: .75rem;
+}
