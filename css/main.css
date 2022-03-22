@@ -2,19 +2,19 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: Merriweather, serif;
-	}
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
-  body {
+body {
     font-size: .9rem;
     margin: 0;
     padding: 0;
   }
 
-  h1, h2, dt {
+h1, h2, dt {
   font-style: italic;
 }
 
