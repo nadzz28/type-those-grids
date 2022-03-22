@@ -4,6 +4,6 @@ html {
   font-family: Merriweather, serif;
 	}
 
-  , *::before, *::after {
+  *, *::before, *::after {
     box-sizing: inherit;
   }
