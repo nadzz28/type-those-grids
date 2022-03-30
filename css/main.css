@@ -1,9 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: Merriweather, serif;
   line-height: 1.5;
-  width: 1000px;
-  height: auto;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
@@ -15,63 +13,46 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "banner banner banner"
-    "box1 box2 box3";
+    "space-1 space-2 space-3";
   gap: .75rem;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h1 h2 dt {
-  font-style: italic;
-}
-
-header {
-  margin: 1rem;
-}
+{
 
 h1 {
   font-size: 1.7rem;
   margin-bottom: 2rem;
+  font-style: italic;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 1.3rem;
-  margin: 0;
-}
-
-h3 {
-  font-size: 1.3rem;
   font-style: italic;
+  font-weight: 500;
 }
 
-main > img {
-  grid-area: banner;
-  max-width: inherit;
-}
-
-figcaption {
-  padding: .5rem;
-}
-
-figure {
-  margin: 0;
+dt {
+  font-style: italic;
 }
 
 img {
   width: 100%;
 }
 
-.explore {
+.banner-photo {
   grid-area: banner;
-  color: white;
-  align-self: end;
-  padding: 1rem;
+  max-width: inherit;
+  display: grid;
 }
 
-.seven-wonders {
-  display: grid;
-  grid-area: banner;
+.banner-title {
+  align-self: end;
+  color: #fff;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  padding: .2rem 1.2rem;
 }
