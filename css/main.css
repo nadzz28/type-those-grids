@@ -1,58 +1,65 @@
 html {
   box-sizing: border-box;
-  line-height: 1.5;
   font-family: Merriweather, serif;
+  line-height: 1.5;
 }
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  font-size: .9rem;
+  margin: 0;
+  padding: 0;
+}
+
 main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-    "banner banner banner"
-    "space-1 space-2 space-3";
   gap: .75rem;
+}
+
+header {
+  margin: 1rem;
 }
 
 h1 {
   font-size: 1.7rem;
   margin-bottom: 2rem;
-  font-style: italic;
-  font-weight: 500;
 }
 
 h2 {
   font-size: 1.3rem;
-  font-style: italic;
-  font-weight: 500;
+  margin: 0;
 }
 
-dt {
-  font-style: italic;
-}
-
-img {
-  width: 100%;
-}
-
-.banner-photo {
+main > img {
   grid-area: banner;
   max-width: inherit;
-  display: grid;
 }
 
-.banner-title {
-  align-self: end;
-  color: #fff;
+h1 h2 dt {
+  font-style: italic;
+}
+
+figcaption {
+  padding: .2rem 1.2rem;
 }
 
 figure {
   margin: 0;
 }
 
-figcaption {
-  padding: .2rem 1.2rem;
+img {
+  width: 100%;
+}
+
+.banner-image {
+  display: grid;
+  grid-area: banner;
+}
+
+.banner-text {
+  grid-area: banner;
+  color: white;
+  align-self: end;
+  padding: 1.5rem 1rem;
 }
